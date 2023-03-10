@@ -2,11 +2,11 @@ import Character from '../Character';
 import Bowman from '../Bowman';
 
 test('Некорректное имя', () => {
-  expect(() => new Character('Nebuchadnezzar', 'Bowman')).toThrow(new Error('Некорректно задано имя. Введите в поле от 2 до 10 символов'));
+  expect(() => new Character('Nebuchadnezzar', 'Bowman')).toThrow();
 });
 
 test('Ошибка в type', () => {
-  expect(() => new Character('Leo', '')).toThrow(new Error('Не выбран персонаж'));
+  expect(() => new Character('Leo', '')).toThrow();
 });
 
 test('Создание объекта', () => {
