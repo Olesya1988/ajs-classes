@@ -1,6 +1,6 @@
 import Swordsman from '../Swordsman';
 
-test('Правильно создаётся объект', () => {
+test('Создание объекта', () => {
   const swordsman = new Swordsman('Swordsman');
   const correct = {
     attack: 40,

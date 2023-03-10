@@ -1,6 +1,6 @@
 import Zombie from '../Zombie';
 
-test('Правильно создаётся объект', () => {
+test('Создание объекта', () => {
   const zombie = new Zombie('Zombie');
   const correct = {
     attack: 40,

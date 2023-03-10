@@ -1,6 +1,6 @@
 import Undead from '../Undead';
 
-test('Правильно создаётся объект', () => {
+test('Создание объекта', () => {
   const undead = new Undead('Undead');
   const correct = {
     attack: 25,

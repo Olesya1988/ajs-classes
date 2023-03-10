@@ -1,6 +1,6 @@
 import Magician from '../Magician';
 
-test('Правильно создаётся объект', () => {
+test('Создание объекта', () => {
   const magician = new Magician('Magician');
   const correct = {
     attack: 10,

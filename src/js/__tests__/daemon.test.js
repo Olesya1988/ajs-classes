@@ -1,6 +1,6 @@
 import Daemon from '../Daemon';
 
-test('Правильно создаётся объект', () => {
+test('Создание объекта', () => {
   const daemon = new Daemon('Daemon');
   const correct = {
     attack: 10,

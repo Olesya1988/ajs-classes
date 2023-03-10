@@ -1,7 +1,7 @@
-import Bowerman from '../Bowerman';
+import Bowman from '../Bowman';
 
 test('Создание объекта', () => {
-  const bowerman = new Bowerman('Bowman');
+  const bowman = new Bowman('Bowman');
   const correct = {
     attack: 25,
     defence: 25,
@@ -11,5 +11,5 @@ test('Создание объекта', () => {
     type: 'Bowman',
   };
 
-  expect(bowerman).toEqual(correct);
+  expect(bowman).toEqual(correct);
 });
